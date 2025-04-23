@@ -70,6 +70,8 @@ npm install
 npm run dev
 Accès à http://localhost:5173 par défaut
 
+Accès direct sur Vercel : https://la-depeche-animale.vercel.app/
+
 📦 Déploiement et compatibilité
 Compatible mobile, desktop, tablette
 
