@@ -1,0 +1,46 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f8f9fa;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+    font-size: 0.9rem;
+
+    p {
+        width: 410px;
+        margin: 0.5rem auto;
+    }
+
+    .cookie-actions {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        button {
+            padding: 0.4rem 1rem;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background 0.3s;
+
+            &:first-child {
+                background: #007bff;
+                color: white;
+            }
+
+            &:last-child {
+                background: #ddd;
+                color: #333;
+            }
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}
