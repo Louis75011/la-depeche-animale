@@ -4,6 +4,9 @@
 ## 🎯 Sous-titre
 > **Une maquette éditoriale rétro-Ghibli, propulsée par Vite 2025, démonstration modulaire et responsive d’un front-end orienté microservices.**
 
+
++ Accès direct d'essai sur Vercel : https://la-depeche-animale.vercel.app/
+
 ---
 
 ## 📚 Présentation
@@ -13,6 +16,7 @@ La Dépêche Animale est une démonstration **réaliste**, **modulaire** et **re
 - une pagination fluide sur données éditoriales simulées
 - une gestion de consentement RGPD
 - un découpage logique du code respectant les principes de **clean architecture**
+- une prise en charge progressive (*Progressive Web App*), avec détection des navigateurs compatibles, bouton “Ajouter à l’écran d’accueil” sur Android/Chrome, guidance manuelle pour iOS/Safari, et message de secours en cas de non-conformité PWA.
 
 ---
 
@@ -69,8 +73,6 @@ cd la-depeche-animale
 npm install
 npm run dev
 Accès à http://localhost:5173 par défaut
-
-Accès direct sur Vercel : https://la-depeche-animale.vercel.app/
 
 📦 Déploiement et compatibilité
 Compatible mobile, desktop, tablette
